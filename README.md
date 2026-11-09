@@ -2,7 +2,7 @@
 
 Source code accompanying **Parameter-Efficient TSFM Adaptation for Distributed Monitoring — Multi-City Ozone Forecasting and Edge Inference**.
 
-This source release starts from cleaned hourly station CSV files. It contains the data-index builders, training and evaluation entry points, archived experiment settings, and device benchmark code. The raw-observation cleaning implementation and the original paired statistical-analysis script are outside this snapshot. The preprocessing and statistical protocols are described in the supplementary material.
+This source release starts from cleaned hourly station CSV files. It contains the data-index builders, training and evaluation entry points, archived experiment settings, and device benchmark code. The preprocessing and statistical protocols are described in the supplementary material.
 
 ## Prepare the environment and data
 
