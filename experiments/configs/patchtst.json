@@ -1,0 +1,15 @@
+{
+  "model_name": "PatchTST",
+  "variant": "city_time",
+  "lr": 0.0003,
+  "d_model": 128,
+  "d_ff": 256,
+  "n_heads": 8,
+  "e_layers": 2,
+  "moving_avg": 25,
+  "patch_len": 16,
+  "stride": 8,
+  "best_val_RMSE": 19.93734731928262,
+  "source_run": "PatchTST_city_time_d128_lr3em4_seed2026",
+  "selected_by": "minimum validation physical RMSE; test not evaluated during tuning"
+}

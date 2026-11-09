@@ -1,0 +1,1251 @@
+{
+  "seq_len": 96,
+  "pred_len": 48,
+  "variables": [
+    "PM2.5",
+    "PM10",
+    "SO2",
+    "NO2",
+    "O3",
+    "CO",
+    "temperature",
+    "relative_humidity"
+  ],
+  "cities": [
+    "beijing",
+    "changsha",
+    "chengdu",
+    "chongqing",
+    "dalian",
+    "guangzhou",
+    "haerbin",
+    "hangzhou",
+    "hefei",
+    "jinan",
+    "kunming",
+    "nanjing",
+    "shanghai",
+    "shenyang",
+    "shenzhen",
+    "shijiazhuang",
+    "suzhou",
+    "tangshan",
+    "tianjin",
+    "wuhan",
+    "wulumuqi",
+    "xian"
+  ],
+  "splits": {
+    "train": {
+      "start": "2023-01-01 00:00:00",
+      "end": "2024-10-31 23:00:00",
+      "stride": 12,
+      "n_samples": 392055
+    },
+    "val": {
+      "start": "2024-11-01 00:00:00",
+      "end": "2024-11-30 23:00:00",
+      "stride": 24,
+      "n_samples": 7375
+    },
+    "cal": {
+      "start": "2024-12-01 00:00:00",
+      "end": "2024-12-31 23:00:00",
+      "stride": 24,
+      "n_samples": 7670
+    },
+    "test": {
+      "start": "2025-01-01 00:00:00",
+      "end": "2025-12-31 23:00:00",
+      "stride": 24,
+      "n_samples": 106200
+    }
+  },
+  "exclusions": [
+    "haerbin/1129A"
+  ],
+  "n_stations": 295,
+  "stations": [
+    {
+      "city": "beijing",
+      "station_id": "1001A"
+    },
+    {
+      "city": "beijing",
+      "station_id": "1003A"
+    },
+    {
+      "city": "beijing",
+      "station_id": "1004A"
+    },
+    {
+      "city": "beijing",
+      "station_id": "1005A"
+    },
+    {
+      "city": "beijing",
+      "station_id": "1006A"
+    },
+    {
+      "city": "beijing",
+      "station_id": "1007A"
+    },
+    {
+      "city": "beijing",
+      "station_id": "1008A"
+    },
+    {
+      "city": "beijing",
+      "station_id": "1009A"
+    },
+    {
+      "city": "beijing",
+      "station_id": "1010A"
+    },
+    {
+      "city": "beijing",
+      "station_id": "1011A"
+    },
+    {
+      "city": "beijing",
+      "station_id": "3281A"
+    },
+    {
+      "city": "beijing",
+      "station_id": "3418A"
+    },
+    {
+      "city": "beijing",
+      "station_id": "3672A"
+    },
+    {
+      "city": "beijing",
+      "station_id": "3673A"
+    },
+    {
+      "city": "beijing",
+      "station_id": "3674A"
+    },
+    {
+      "city": "beijing",
+      "station_id": "3675A"
+    },
+    {
+      "city": "beijing",
+      "station_id": "3694A"
+    },
+    {
+      "city": "beijing",
+      "station_id": "3695A"
+    },
+    {
+      "city": "beijing",
+      "station_id": "3696A"
+    },
+    {
+      "city": "beijing",
+      "station_id": "3697A"
+    },
+    {
+      "city": "changsha",
+      "station_id": "1335A"
+    },
+    {
+      "city": "changsha",
+      "station_id": "1336A"
+    },
+    {
+      "city": "changsha",
+      "station_id": "1337A"
+    },
+    {
+      "city": "changsha",
+      "station_id": "1338A"
+    },
+    {
+      "city": "changsha",
+      "station_id": "1339A"
+    },
+    {
+      "city": "changsha",
+      "station_id": "1340A"
+    },
+    {
+      "city": "changsha",
+      "station_id": "1341A"
+    },
+    {
+      "city": "changsha",
+      "station_id": "1342A"
+    },
+    {
+      "city": "changsha",
+      "station_id": "1343A"
+    },
+    {
+      "city": "changsha",
+      "station_id": "1344A"
+    },
+    {
+      "city": "chengdu",
+      "station_id": "1431A"
+    },
+    {
+      "city": "chengdu",
+      "station_id": "1432A"
+    },
+    {
+      "city": "chengdu",
+      "station_id": "1433A"
+    },
+    {
+      "city": "chengdu",
+      "station_id": "1434A"
+    },
+    {
+      "city": "chengdu",
+      "station_id": "1437A"
+    },
+    {
+      "city": "chengdu",
+      "station_id": "2880A"
+    },
+    {
+      "city": "chengdu",
+      "station_id": "3136A"
+    },
+    {
+      "city": "chengdu",
+      "station_id": "3357A"
+    },
+    {
+      "city": "chengdu",
+      "station_id": "3359A"
+    },
+    {
+      "city": "chengdu",
+      "station_id": "3488A"
+    },
+    {
+      "city": "chengdu",
+      "station_id": "3489A"
+    },
+    {
+      "city": "chongqing",
+      "station_id": "1414A"
+    },
+    {
+      "city": "chongqing",
+      "station_id": "1416A"
+    },
+    {
+      "city": "chongqing",
+      "station_id": "1417A"
+    },
+    {
+      "city": "chongqing",
+      "station_id": "1418A"
+    },
+    {
+      "city": "chongqing",
+      "station_id": "1419A"
+    },
+    {
+      "city": "chongqing",
+      "station_id": "1420A"
+    },
+    {
+      "city": "chongqing",
+      "station_id": "1421A"
+    },
+    {
+      "city": "chongqing",
+      "station_id": "1422A"
+    },
+    {
+      "city": "chongqing",
+      "station_id": "1425A"
+    },
+    {
+      "city": "chongqing",
+      "station_id": "1427A"
+    },
+    {
+      "city": "chongqing",
+      "station_id": "1428A"
+    },
+    {
+      "city": "chongqing",
+      "station_id": "1429A"
+    },
+    {
+      "city": "chongqing",
+      "station_id": "3014A"
+    },
+    {
+      "city": "chongqing",
+      "station_id": "3015A"
+    },
+    {
+      "city": "chongqing",
+      "station_id": "3016A"
+    },
+    {
+      "city": "chongqing",
+      "station_id": "3133A"
+    },
+    {
+      "city": "chongqing",
+      "station_id": "3346A"
+    },
+    {
+      "city": "chongqing",
+      "station_id": "3347A"
+    },
+    {
+      "city": "chongqing",
+      "station_id": "3350A"
+    },
+    {
+      "city": "chongqing",
+      "station_id": "3351A"
+    },
+    {
+      "city": "chongqing",
+      "station_id": "3352A"
+    },
+    {
+      "city": "chongqing",
+      "station_id": "3353A"
+    },
+    {
+      "city": "chongqing",
+      "station_id": "3354A"
+    },
+    {
+      "city": "chongqing",
+      "station_id": "3356A"
+    },
+    {
+      "city": "chongqing",
+      "station_id": "3482A"
+    },
+    {
+      "city": "chongqing",
+      "station_id": "3483A"
+    },
+    {
+      "city": "chongqing",
+      "station_id": "3484A"
+    },
+    {
+      "city": "chongqing",
+      "station_id": "3599A"
+    },
+    {
+      "city": "chongqing",
+      "station_id": "3600A"
+    },
+    {
+      "city": "chongqing",
+      "station_id": "3601A"
+    },
+    {
+      "city": "chongqing",
+      "station_id": "3610A"
+    },
+    {
+      "city": "dalian",
+      "station_id": "1109A"
+    },
+    {
+      "city": "dalian",
+      "station_id": "1110A"
+    },
+    {
+      "city": "dalian",
+      "station_id": "1111A"
+    },
+    {
+      "city": "dalian",
+      "station_id": "1112A"
+    },
+    {
+      "city": "dalian",
+      "station_id": "1113A"
+    },
+    {
+      "city": "dalian",
+      "station_id": "1114A"
+    },
+    {
+      "city": "dalian",
+      "station_id": "1115A"
+    },
+    {
+      "city": "dalian",
+      "station_id": "1116A"
+    },
+    {
+      "city": "dalian",
+      "station_id": "1117A"
+    },
+    {
+      "city": "dalian",
+      "station_id": "1118A"
+    },
+    {
+      "city": "guangzhou",
+      "station_id": "1345A"
+    },
+    {
+      "city": "guangzhou",
+      "station_id": "1346A"
+    },
+    {
+      "city": "guangzhou",
+      "station_id": "1348A"
+    },
+    {
+      "city": "guangzhou",
+      "station_id": "1349A"
+    },
+    {
+      "city": "guangzhou",
+      "station_id": "1350A"
+    },
+    {
+      "city": "guangzhou",
+      "station_id": "1351A"
+    },
+    {
+      "city": "guangzhou",
+      "station_id": "1352A"
+    },
+    {
+      "city": "guangzhou",
+      "station_id": "1353A"
+    },
+    {
+      "city": "guangzhou",
+      "station_id": "1354A"
+    },
+    {
+      "city": "guangzhou",
+      "station_id": "1355A"
+    },
+    {
+      "city": "guangzhou",
+      "station_id": "2846A"
+    },
+    {
+      "city": "guangzhou",
+      "station_id": "3298A"
+    },
+    {
+      "city": "guangzhou",
+      "station_id": "3299A"
+    },
+    {
+      "city": "guangzhou",
+      "station_id": "3300A"
+    },
+    {
+      "city": "guangzhou",
+      "station_id": "3301A"
+    },
+    {
+      "city": "guangzhou",
+      "station_id": "3302A"
+    },
+    {
+      "city": "guangzhou",
+      "station_id": "3303A"
+    },
+    {
+      "city": "guangzhou",
+      "station_id": "3304A"
+    },
+    {
+      "city": "guangzhou",
+      "station_id": "3443A"
+    },
+    {
+      "city": "guangzhou",
+      "station_id": "3445A"
+    },
+    {
+      "city": "guangzhou",
+      "station_id": "3446A"
+    },
+    {
+      "city": "haerbin",
+      "station_id": "1130A"
+    },
+    {
+      "city": "haerbin",
+      "station_id": "1131A"
+    },
+    {
+      "city": "haerbin",
+      "station_id": "1132A"
+    },
+    {
+      "city": "haerbin",
+      "station_id": "1133A"
+    },
+    {
+      "city": "haerbin",
+      "station_id": "1134A"
+    },
+    {
+      "city": "haerbin",
+      "station_id": "1135A"
+    },
+    {
+      "city": "haerbin",
+      "station_id": "1136A"
+    },
+    {
+      "city": "haerbin",
+      "station_id": "1137A"
+    },
+    {
+      "city": "haerbin",
+      "station_id": "1138A"
+    },
+    {
+      "city": "haerbin",
+      "station_id": "1139A"
+    },
+    {
+      "city": "haerbin",
+      "station_id": "1140A"
+    },
+    {
+      "city": "hangzhou",
+      "station_id": "1223A"
+    },
+    {
+      "city": "hangzhou",
+      "station_id": "1224A"
+    },
+    {
+      "city": "hangzhou",
+      "station_id": "1226A"
+    },
+    {
+      "city": "hangzhou",
+      "station_id": "1227A"
+    },
+    {
+      "city": "hangzhou",
+      "station_id": "1228A"
+    },
+    {
+      "city": "hangzhou",
+      "station_id": "1230A"
+    },
+    {
+      "city": "hangzhou",
+      "station_id": "1231A"
+    },
+    {
+      "city": "hangzhou",
+      "station_id": "1232A"
+    },
+    {
+      "city": "hangzhou",
+      "station_id": "1233A"
+    },
+    {
+      "city": "hangzhou",
+      "station_id": "3557A"
+    },
+    {
+      "city": "hangzhou",
+      "station_id": "3558A"
+    },
+    {
+      "city": "hangzhou",
+      "station_id": "3656A"
+    },
+    {
+      "city": "hefei",
+      "station_id": "1270A"
+    },
+    {
+      "city": "hefei",
+      "station_id": "1271A"
+    },
+    {
+      "city": "hefei",
+      "station_id": "1272A"
+    },
+    {
+      "city": "hefei",
+      "station_id": "1273A"
+    },
+    {
+      "city": "hefei",
+      "station_id": "1274A"
+    },
+    {
+      "city": "hefei",
+      "station_id": "1275A"
+    },
+    {
+      "city": "hefei",
+      "station_id": "1276A"
+    },
+    {
+      "city": "hefei",
+      "station_id": "1277A"
+    },
+    {
+      "city": "hefei",
+      "station_id": "1278A"
+    },
+    {
+      "city": "hefei",
+      "station_id": "1279A"
+    },
+    {
+      "city": "hefei",
+      "station_id": "3464A"
+    },
+    {
+      "city": "jinan",
+      "station_id": "1299A"
+    },
+    {
+      "city": "jinan",
+      "station_id": "1300A"
+    },
+    {
+      "city": "jinan",
+      "station_id": "1301A"
+    },
+    {
+      "city": "jinan",
+      "station_id": "1303A"
+    },
+    {
+      "city": "jinan",
+      "station_id": "1304A"
+    },
+    {
+      "city": "jinan",
+      "station_id": "1305A"
+    },
+    {
+      "city": "jinan",
+      "station_id": "1306A"
+    },
+    {
+      "city": "jinan",
+      "station_id": "1616A"
+    },
+    {
+      "city": "jinan",
+      "station_id": "1961A"
+    },
+    {
+      "city": "jinan",
+      "station_id": "3059A"
+    },
+    {
+      "city": "jinan",
+      "station_id": "3064A"
+    },
+    {
+      "city": "jinan",
+      "station_id": "3494A"
+    },
+    {
+      "city": "jinan",
+      "station_id": "3495A"
+    },
+    {
+      "city": "jinan",
+      "station_id": "3682A"
+    },
+    {
+      "city": "kunming",
+      "station_id": "1450A"
+    },
+    {
+      "city": "kunming",
+      "station_id": "1452A"
+    },
+    {
+      "city": "kunming",
+      "station_id": "1453A"
+    },
+    {
+      "city": "kunming",
+      "station_id": "1454A"
+    },
+    {
+      "city": "kunming",
+      "station_id": "1455A"
+    },
+    {
+      "city": "kunming",
+      "station_id": "3179A"
+    },
+    {
+      "city": "kunming",
+      "station_id": "3375A"
+    },
+    {
+      "city": "kunming",
+      "station_id": "3550A"
+    },
+    {
+      "city": "kunming",
+      "station_id": "3551A"
+    },
+    {
+      "city": "kunming",
+      "station_id": "3552A"
+    },
+    {
+      "city": "nanjing",
+      "station_id": "1151A"
+    },
+    {
+      "city": "nanjing",
+      "station_id": "1152A"
+    },
+    {
+      "city": "nanjing",
+      "station_id": "1153A"
+    },
+    {
+      "city": "nanjing",
+      "station_id": "1154A"
+    },
+    {
+      "city": "nanjing",
+      "station_id": "1155A"
+    },
+    {
+      "city": "nanjing",
+      "station_id": "1156A"
+    },
+    {
+      "city": "nanjing",
+      "station_id": "1157A"
+    },
+    {
+      "city": "nanjing",
+      "station_id": "1158A"
+    },
+    {
+      "city": "nanjing",
+      "station_id": "1159A"
+    },
+    {
+      "city": "nanjing",
+      "station_id": "3422A"
+    },
+    {
+      "city": "nanjing",
+      "station_id": "3427A"
+    },
+    {
+      "city": "shanghai",
+      "station_id": "1141A"
+    },
+    {
+      "city": "shanghai",
+      "station_id": "1142A"
+    },
+    {
+      "city": "shanghai",
+      "station_id": "1143A"
+    },
+    {
+      "city": "shanghai",
+      "station_id": "1147A"
+    },
+    {
+      "city": "shanghai",
+      "station_id": "1148A"
+    },
+    {
+      "city": "shanghai",
+      "station_id": "1149A"
+    },
+    {
+      "city": "shanghai",
+      "station_id": "1150A"
+    },
+    {
+      "city": "shanghai",
+      "station_id": "3265A"
+    },
+    {
+      "city": "shanghai",
+      "station_id": "3266A"
+    },
+    {
+      "city": "shanghai",
+      "station_id": "3268A"
+    },
+    {
+      "city": "shanghai",
+      "station_id": "3269A"
+    },
+    {
+      "city": "shanghai",
+      "station_id": "3270A"
+    },
+    {
+      "city": "shanghai",
+      "station_id": "3271A"
+    },
+    {
+      "city": "shanghai",
+      "station_id": "3272A"
+    },
+    {
+      "city": "shanghai",
+      "station_id": "3273A"
+    },
+    {
+      "city": "shanghai",
+      "station_id": "3274A"
+    },
+    {
+      "city": "shanghai",
+      "station_id": "3544A"
+    },
+    {
+      "city": "shenyang",
+      "station_id": "1099A"
+    },
+    {
+      "city": "shenyang",
+      "station_id": "1100A"
+    },
+    {
+      "city": "shenyang",
+      "station_id": "1102A"
+    },
+    {
+      "city": "shenyang",
+      "station_id": "1103A"
+    },
+    {
+      "city": "shenyang",
+      "station_id": "1104A"
+    },
+    {
+      "city": "shenyang",
+      "station_id": "1105A"
+    },
+    {
+      "city": "shenyang",
+      "station_id": "1106A"
+    },
+    {
+      "city": "shenyang",
+      "station_id": "1108A"
+    },
+    {
+      "city": "shenyang",
+      "station_id": "2897A"
+    },
+    {
+      "city": "shenyang",
+      "station_id": "2900A"
+    },
+    {
+      "city": "shenzhen",
+      "station_id": "1356A"
+    },
+    {
+      "city": "shenzhen",
+      "station_id": "1357A"
+    },
+    {
+      "city": "shenzhen",
+      "station_id": "1358A"
+    },
+    {
+      "city": "shenzhen",
+      "station_id": "1359A"
+    },
+    {
+      "city": "shenzhen",
+      "station_id": "1360A"
+    },
+    {
+      "city": "shenzhen",
+      "station_id": "1361A"
+    },
+    {
+      "city": "shenzhen",
+      "station_id": "1363A"
+    },
+    {
+      "city": "shenzhen",
+      "station_id": "1364A"
+    },
+    {
+      "city": "shenzhen",
+      "station_id": "1365A"
+    },
+    {
+      "city": "shenzhen",
+      "station_id": "1366A"
+    },
+    {
+      "city": "shenzhen",
+      "station_id": "3305A"
+    },
+    {
+      "city": "shenzhen",
+      "station_id": "3306A"
+    },
+    {
+      "city": "shenzhen",
+      "station_id": "3307A"
+    },
+    {
+      "city": "shenzhen",
+      "station_id": "3447A"
+    },
+    {
+      "city": "shenzhen",
+      "station_id": "3623A"
+    },
+    {
+      "city": "shijiazhuang",
+      "station_id": "1029A"
+    },
+    {
+      "city": "shijiazhuang",
+      "station_id": "1030A"
+    },
+    {
+      "city": "shijiazhuang",
+      "station_id": "1031A"
+    },
+    {
+      "city": "shijiazhuang",
+      "station_id": "1032A"
+    },
+    {
+      "city": "shijiazhuang",
+      "station_id": "1033A"
+    },
+    {
+      "city": "shijiazhuang",
+      "station_id": "1034A"
+    },
+    {
+      "city": "shijiazhuang",
+      "station_id": "1035A"
+    },
+    {
+      "city": "shijiazhuang",
+      "station_id": "2862A"
+    },
+    {
+      "city": "shijiazhuang",
+      "station_id": "3456A"
+    },
+    {
+      "city": "shijiazhuang",
+      "station_id": "3573A"
+    },
+    {
+      "city": "suzhou",
+      "station_id": "1162A"
+    },
+    {
+      "city": "suzhou",
+      "station_id": "1163A"
+    },
+    {
+      "city": "suzhou",
+      "station_id": "1164A"
+    },
+    {
+      "city": "suzhou",
+      "station_id": "1165A"
+    },
+    {
+      "city": "suzhou",
+      "station_id": "1166A"
+    },
+    {
+      "city": "suzhou",
+      "station_id": "1167A"
+    },
+    {
+      "city": "suzhou",
+      "station_id": "3289A"
+    },
+    {
+      "city": "suzhou",
+      "station_id": "3290A"
+    },
+    {
+      "city": "suzhou",
+      "station_id": "3425A"
+    },
+    {
+      "city": "suzhou",
+      "station_id": "3431A"
+    },
+    {
+      "city": "tangshan",
+      "station_id": "1038A"
+    },
+    {
+      "city": "tangshan",
+      "station_id": "1040A"
+    },
+    {
+      "city": "tangshan",
+      "station_id": "1041A"
+    },
+    {
+      "city": "tangshan",
+      "station_id": "3457A"
+    },
+    {
+      "city": "tangshan",
+      "station_id": "3575A"
+    },
+    {
+      "city": "tangshan",
+      "station_id": "3576A"
+    },
+    {
+      "city": "tangshan",
+      "station_id": "3577A"
+    },
+    {
+      "city": "tangshan",
+      "station_id": "3578A"
+    },
+    {
+      "city": "tangshan",
+      "station_id": "3692A"
+    },
+    {
+      "city": "tangshan",
+      "station_id": "3693A"
+    },
+    {
+      "city": "tianjin",
+      "station_id": "1015A"
+    },
+    {
+      "city": "tianjin",
+      "station_id": "1018A"
+    },
+    {
+      "city": "tianjin",
+      "station_id": "1019A"
+    },
+    {
+      "city": "tianjin",
+      "station_id": "1021A"
+    },
+    {
+      "city": "tianjin",
+      "station_id": "1023A"
+    },
+    {
+      "city": "tianjin",
+      "station_id": "1024A"
+    },
+    {
+      "city": "tianjin",
+      "station_id": "1026A"
+    },
+    {
+      "city": "tianjin",
+      "station_id": "2858A"
+    },
+    {
+      "city": "tianjin",
+      "station_id": "2859A"
+    },
+    {
+      "city": "tianjin",
+      "station_id": "2860A"
+    },
+    {
+      "city": "tianjin",
+      "station_id": "2922A"
+    },
+    {
+      "city": "tianjin",
+      "station_id": "3020A"
+    },
+    {
+      "city": "tianjin",
+      "station_id": "3051A"
+    },
+    {
+      "city": "tianjin",
+      "station_id": "3325A"
+    },
+    {
+      "city": "tianjin",
+      "station_id": "3326A"
+    },
+    {
+      "city": "tianjin",
+      "station_id": "3327A"
+    },
+    {
+      "city": "tianjin",
+      "station_id": "3460A"
+    },
+    {
+      "city": "tianjin",
+      "station_id": "3461A"
+    },
+    {
+      "city": "tianjin",
+      "station_id": "3462A"
+    },
+    {
+      "city": "wuhan",
+      "station_id": "1325A"
+    },
+    {
+      "city": "wuhan",
+      "station_id": "1326A"
+    },
+    {
+      "city": "wuhan",
+      "station_id": "1327A"
+    },
+    {
+      "city": "wuhan",
+      "station_id": "1328A"
+    },
+    {
+      "city": "wuhan",
+      "station_id": "1329A"
+    },
+    {
+      "city": "wuhan",
+      "station_id": "1330A"
+    },
+    {
+      "city": "wuhan",
+      "station_id": "1331A"
+    },
+    {
+      "city": "wuhan",
+      "station_id": "1333A"
+    },
+    {
+      "city": "wuhan",
+      "station_id": "1334A"
+    },
+    {
+      "city": "wuhan",
+      "station_id": "3153A"
+    },
+    {
+      "city": "wulumuqi",
+      "station_id": "1490A"
+    },
+    {
+      "city": "wulumuqi",
+      "station_id": "1491A"
+    },
+    {
+      "city": "wulumuqi",
+      "station_id": "1493A"
+    },
+    {
+      "city": "wulumuqi",
+      "station_id": "1494A"
+    },
+    {
+      "city": "wulumuqi",
+      "station_id": "1496A"
+    },
+    {
+      "city": "wulumuqi",
+      "station_id": "3033A"
+    },
+    {
+      "city": "wulumuqi",
+      "station_id": "3437A"
+    },
+    {
+      "city": "wulumuqi",
+      "station_id": "3438A"
+    },
+    {
+      "city": "wulumuqi",
+      "station_id": "3439A"
+    },
+    {
+      "city": "wulumuqi",
+      "station_id": "3440A"
+    },
+    {
+      "city": "xian",
+      "station_id": "1463A"
+    },
+    {
+      "city": "xian",
+      "station_id": "1464A"
+    },
+    {
+      "city": "xian",
+      "station_id": "1465A"
+    },
+    {
+      "city": "xian",
+      "station_id": "1466A"
+    },
+    {
+      "city": "xian",
+      "station_id": "1467A"
+    },
+    {
+      "city": "xian",
+      "station_id": "1468A"
+    },
+    {
+      "city": "xian",
+      "station_id": "1469A"
+    },
+    {
+      "city": "xian",
+      "station_id": "1471A"
+    },
+    {
+      "city": "xian",
+      "station_id": "1472A"
+    },
+    {
+      "city": "xian",
+      "station_id": "1473A"
+    },
+    {
+      "city": "xian",
+      "station_id": "1474A"
+    },
+    {
+      "city": "xian",
+      "station_id": "3605A"
+    }
+  ],
+  "o3_idx": 4
+}

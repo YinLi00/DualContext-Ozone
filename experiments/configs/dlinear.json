@@ -1,0 +1,15 @@
+{
+  "model_name": "DLinear",
+  "variant": "city_time",
+  "lr": 0.001,
+  "d_model": 64,
+  "d_ff": 128,
+  "n_heads": 8,
+  "e_layers": 2,
+  "moving_avg": 25,
+  "patch_len": 16,
+  "stride": 8,
+  "best_val_RMSE": 19.77929237219752,
+  "source_run": "DLinear_city_time_lr1em3_seed2026",
+  "selected_by": "minimum validation physical RMSE; test not evaluated during tuning"
+}

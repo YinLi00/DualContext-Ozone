@@ -1,0 +1,9 @@
+{
+  "variant": "city_time",
+  "lr": 0.001,
+  "d_model": 128,
+  "e_layers": 2,
+  "selected_by": "minimum validation physical RMSE; test not evaluated during tuning",
+  "best_val_RMSE": 19.28524482813108,
+  "source_run": "TSMixer_city_time_d128_lr1em3_seed2026"
+}

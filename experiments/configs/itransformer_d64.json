@@ -1,0 +1,23 @@
+{
+  "model_name": "iTransformer",
+  "variant": "city_time",
+  "lr": 0.0001,
+  "d_model": 64,
+  "d_ff": 128,
+  "n_heads": 8,
+  "e_layers": 2,
+  "lstm_hidden": 64,
+  "lstm_layers": 2,
+  "top_k": 3,
+  "num_kernels": 6,
+  "moving_avg": 25,
+  "decomp_method": "moving_avg",
+  "down_sampling_layers": 2,
+  "down_sampling_window": 2,
+  "down_sampling_method": "avg",
+  "channel_independence": 0,
+  "best_val_RMSE": 19.71032584714785,
+  "best_epoch": 11,
+  "source_run": "iTransformer_city_time_d64_lr1em4_seed2026",
+  "selected_by": "minimum revision-v2 validation physical RMSE; test split not constructed during tuning"
+}

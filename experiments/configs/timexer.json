@@ -1,0 +1,89 @@
+{
+  "model_name": "TimeXer",
+  "candidate_name": "d128_p16_lr3em4",
+  "source_run": "TimeXer_city_time_d128_p16_lr3em4_seed2026",
+  "source_dir": "experiments/results/02_global_baselines/1e_tuning_timexer/TimeXer_city_time_d128_p16_lr3em4_seed2026",
+  "best_val_RMSE": 19.70610357788334,
+  "best_epoch": 3,
+  "command_args": {
+    "lr": 0.0003,
+    "d_model": 128,
+    "d_ff": 256,
+    "n_heads": 8,
+    "e_layers": 2,
+    "patch_len": 16,
+    "batch_size": 64
+  },
+  "variant": "city_time",
+  "selected_by": "minimum revision-v2 validation physical RMSE; test split not constructed during tuning",
+  "all_candidates": [
+    {
+      "model_name": "TimeXer",
+      "candidate_name": "d128_p16_lr3em4",
+      "source_run": "TimeXer_city_time_d128_p16_lr3em4_seed2026",
+      "source_dir": "experiments/results/02_global_baselines/1e_tuning_timexer/TimeXer_city_time_d128_p16_lr3em4_seed2026",
+      "best_val_RMSE": 19.70610357788334,
+      "best_epoch": 3,
+      "command_args": {
+        "lr": 0.0003,
+        "d_model": 128,
+        "d_ff": 256,
+        "n_heads": 8,
+        "e_layers": 2,
+        "patch_len": 16,
+        "batch_size": 64
+      }
+    },
+    {
+      "model_name": "TimeXer",
+      "candidate_name": "d64_p16_lr1em4",
+      "source_run": "TimeXer_city_time_d64_p16_lr1em4_seed2026",
+      "source_dir": "experiments/results/02_global_baselines/1e_tuning_timexer/TimeXer_city_time_d64_p16_lr1em4_seed2026",
+      "best_val_RMSE": 19.713869559650657,
+      "best_epoch": 9,
+      "command_args": {
+        "lr": 0.0001,
+        "d_model": 64,
+        "d_ff": 128,
+        "n_heads": 8,
+        "e_layers": 2,
+        "patch_len": 16,
+        "batch_size": 64
+      }
+    },
+    {
+      "model_name": "TimeXer",
+      "candidate_name": "d64_p16_lr3em4",
+      "source_run": "TimeXer_city_time_d64_p16_lr3em4_seed2026",
+      "source_dir": "experiments/results/02_global_baselines/1e_tuning_timexer/TimeXer_city_time_d64_p16_lr3em4_seed2026",
+      "best_val_RMSE": 19.714488882066973,
+      "best_epoch": 3,
+      "command_args": {
+        "lr": 0.0003,
+        "d_model": 64,
+        "d_ff": 128,
+        "n_heads": 8,
+        "e_layers": 2,
+        "patch_len": 16,
+        "batch_size": 64
+      }
+    },
+    {
+      "model_name": "TimeXer",
+      "candidate_name": "d128_p24_lr1em4",
+      "source_run": "TimeXer_city_time_d128_p24_lr1em4_seed2026",
+      "source_dir": "experiments/results/02_global_baselines/1e_tuning_timexer/TimeXer_city_time_d128_p24_lr1em4_seed2026",
+      "best_val_RMSE": 19.84733836835832,
+      "best_epoch": 5,
+      "command_args": {
+        "lr": 0.0001,
+        "d_model": 128,
+        "d_ff": 256,
+        "n_heads": 8,
+        "e_layers": 2,
+        "patch_len": 24,
+        "batch_size": 64
+      }
+    }
+  ]
+}

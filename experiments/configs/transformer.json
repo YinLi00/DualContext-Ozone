@@ -1,0 +1,89 @@
+{
+  "model_name": "Transformer",
+  "candidate_name": "d128_lr3em4",
+  "source_run": "Transformer_city_time_d128_lr3em4_seed2026",
+  "source_dir": "experiments/results/02_global_baselines/1e_tuning_transformer/Transformer_city_time_d128_lr3em4_seed2026",
+  "best_val_RMSE": 19.83473317812893,
+  "best_epoch": 1,
+  "command_args": {
+    "lr": 0.0003,
+    "d_model": 128,
+    "d_ff": 256,
+    "n_heads": 8,
+    "e_layers": 2,
+    "d_layers": 1,
+    "batch_size": 64
+  },
+  "variant": "city_time",
+  "selected_by": "minimum revision-v2 validation physical RMSE; test split not constructed during tuning",
+  "all_candidates": [
+    {
+      "model_name": "Transformer",
+      "candidate_name": "d128_lr3em4",
+      "source_run": "Transformer_city_time_d128_lr3em4_seed2026",
+      "source_dir": "experiments/results/02_global_baselines/1e_tuning_transformer/Transformer_city_time_d128_lr3em4_seed2026",
+      "best_val_RMSE": 19.83473317812893,
+      "best_epoch": 1,
+      "command_args": {
+        "lr": 0.0003,
+        "d_model": 128,
+        "d_ff": 256,
+        "n_heads": 8,
+        "e_layers": 2,
+        "d_layers": 1,
+        "batch_size": 64
+      }
+    },
+    {
+      "model_name": "Transformer",
+      "candidate_name": "d64_lr3em4",
+      "source_run": "Transformer_city_time_d64_lr3em4_seed2026",
+      "source_dir": "experiments/results/02_global_baselines/1e_tuning_transformer/Transformer_city_time_d64_lr3em4_seed2026",
+      "best_val_RMSE": 20.087335400521184,
+      "best_epoch": 2,
+      "command_args": {
+        "lr": 0.0003,
+        "d_model": 64,
+        "d_ff": 128,
+        "n_heads": 8,
+        "e_layers": 2,
+        "d_layers": 1,
+        "batch_size": 64
+      }
+    },
+    {
+      "model_name": "Transformer",
+      "candidate_name": "d64_lr1em4",
+      "source_run": "Transformer_city_time_d64_lr1em4_seed2026",
+      "source_dir": "experiments/results/02_global_baselines/1e_tuning_transformer/Transformer_city_time_d64_lr1em4_seed2026",
+      "best_val_RMSE": 20.09434138569053,
+      "best_epoch": 5,
+      "command_args": {
+        "lr": 0.0001,
+        "d_model": 64,
+        "d_ff": 128,
+        "n_heads": 8,
+        "e_layers": 2,
+        "d_layers": 1,
+        "batch_size": 64
+      }
+    },
+    {
+      "model_name": "Transformer",
+      "candidate_name": "d128_lr1em4",
+      "source_run": "Transformer_city_time_d128_lr1em4_seed2026",
+      "source_dir": "experiments/results/02_global_baselines/1e_tuning_transformer/Transformer_city_time_d128_lr1em4_seed2026",
+      "best_val_RMSE": 20.094477898830526,
+      "best_epoch": 1,
+      "command_args": {
+        "lr": 0.0001,
+        "d_model": 128,
+        "d_ff": 256,
+        "n_heads": 8,
+        "e_layers": 2,
+        "d_layers": 1,
+        "batch_size": 64
+      }
+    }
+  ]
+}

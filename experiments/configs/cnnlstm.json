@@ -1,0 +1,79 @@
+{
+  "model_name": "CNNLSTM",
+  "candidate_name": "h64_c32_lr1em3",
+  "source_run": "CNNLSTM_city_time_h64_c32_lr1em3_seed2026",
+  "source_dir": "experiments/results/02_global_baselines/1e_tuning_cnnlstm/CNNLSTM_city_time_h64_c32_lr1em3_seed2026",
+  "best_val_RMSE": 19.55173920269013,
+  "best_epoch": 1,
+  "command_args": {
+    "lr": 0.001,
+    "d_model": 64,
+    "e_layers": 2,
+    "conv_channel": 32,
+    "batch_size": 64
+  },
+  "variant": "city_time",
+  "selected_by": "minimum revision-v2 validation physical RMSE; test split not constructed during tuning",
+  "all_candidates": [
+    {
+      "model_name": "CNNLSTM",
+      "candidate_name": "h64_c32_lr1em3",
+      "source_run": "CNNLSTM_city_time_h64_c32_lr1em3_seed2026",
+      "source_dir": "experiments/results/02_global_baselines/1e_tuning_cnnlstm/CNNLSTM_city_time_h64_c32_lr1em3_seed2026",
+      "best_val_RMSE": 19.55173920269013,
+      "best_epoch": 1,
+      "command_args": {
+        "lr": 0.001,
+        "d_model": 64,
+        "e_layers": 2,
+        "conv_channel": 32,
+        "batch_size": 64
+      }
+    },
+    {
+      "model_name": "CNNLSTM",
+      "candidate_name": "h128_c64_lr3em4",
+      "source_run": "CNNLSTM_city_time_h128_c64_lr3em4_seed2026",
+      "source_dir": "experiments/results/02_global_baselines/1e_tuning_cnnlstm/CNNLSTM_city_time_h128_c64_lr3em4_seed2026",
+      "best_val_RMSE": 19.703220981608197,
+      "best_epoch": 2,
+      "command_args": {
+        "lr": 0.0003,
+        "d_model": 128,
+        "e_layers": 2,
+        "conv_channel": 64,
+        "batch_size": 64
+      }
+    },
+    {
+      "model_name": "CNNLSTM",
+      "candidate_name": "h64_c64_lr3em4",
+      "source_run": "CNNLSTM_city_time_h64_c64_lr3em4_seed2026",
+      "source_dir": "experiments/results/02_global_baselines/1e_tuning_cnnlstm/CNNLSTM_city_time_h64_c64_lr3em4_seed2026",
+      "best_val_RMSE": 19.715428721362564,
+      "best_epoch": 2,
+      "command_args": {
+        "lr": 0.0003,
+        "d_model": 64,
+        "e_layers": 2,
+        "conv_channel": 64,
+        "batch_size": 64
+      }
+    },
+    {
+      "model_name": "CNNLSTM",
+      "candidate_name": "h128_c64_lr1em3",
+      "source_run": "CNNLSTM_city_time_h128_c64_lr1em3_seed2026",
+      "source_dir": "experiments/results/02_global_baselines/1e_tuning_cnnlstm/CNNLSTM_city_time_h128_c64_lr1em3_seed2026",
+      "best_val_RMSE": 19.80152106911022,
+      "best_epoch": 1,
+      "command_args": {
+        "lr": 0.001,
+        "d_model": 128,
+        "e_layers": 2,
+        "conv_channel": 64,
+        "batch_size": 64
+      }
+    }
+  ]
+}

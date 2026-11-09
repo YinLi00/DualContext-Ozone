@@ -1,0 +1,84 @@
+{
+  "model_name": "Koopa",
+  "candidate_name": "dyn32_h64_b2_lr3em4",
+  "source_run": "Koopa_city_time_dyn32_h64_b2_lr3em4_seed2026",
+  "source_dir": "experiments/results/02_global_baselines/1e_tuning_koopa/Koopa_city_time_dyn32_h64_b2_lr3em4_seed2026",
+  "best_val_RMSE": 19.752472182556254,
+  "best_epoch": 2,
+  "command_args": {
+    "lr": 0.0003,
+    "koopa_dynamic_dim": 32,
+    "koopa_hidden_dim": 64,
+    "koopa_hidden_layers": 2,
+    "koopa_num_blocks": 2,
+    "batch_size": 16
+  },
+  "variant": "city_time",
+  "selected_by": "minimum revision-v2 validation physical RMSE; test split not constructed during tuning",
+  "all_candidates": [
+    {
+      "model_name": "Koopa",
+      "candidate_name": "dyn32_h64_b2_lr3em4",
+      "source_run": "Koopa_city_time_dyn32_h64_b2_lr3em4_seed2026",
+      "source_dir": "experiments/results/02_global_baselines/1e_tuning_koopa/Koopa_city_time_dyn32_h64_b2_lr3em4_seed2026",
+      "best_val_RMSE": 19.752472182556254,
+      "best_epoch": 2,
+      "command_args": {
+        "lr": 0.0003,
+        "koopa_dynamic_dim": 32,
+        "koopa_hidden_dim": 64,
+        "koopa_hidden_layers": 2,
+        "koopa_num_blocks": 2,
+        "batch_size": 16
+      }
+    },
+    {
+      "model_name": "Koopa",
+      "candidate_name": "dyn32_h64_b1_lr3em4",
+      "source_run": "Koopa_city_time_dyn32_h64_b1_lr3em4_seed2026",
+      "source_dir": "experiments/results/02_global_baselines/1e_tuning_koopa/Koopa_city_time_dyn32_h64_b1_lr3em4_seed2026",
+      "best_val_RMSE": 19.769656501321258,
+      "best_epoch": 11,
+      "command_args": {
+        "lr": 0.0003,
+        "koopa_dynamic_dim": 32,
+        "koopa_hidden_dim": 64,
+        "koopa_hidden_layers": 2,
+        "koopa_num_blocks": 1,
+        "batch_size": 24
+      }
+    },
+    {
+      "model_name": "Koopa",
+      "candidate_name": "dyn64_h128_b2_lr1em4",
+      "source_run": "Koopa_city_time_dyn64_h128_b2_lr1em4_seed2026",
+      "source_dir": "experiments/results/02_global_baselines/1e_tuning_koopa/Koopa_city_time_dyn64_h128_b2_lr1em4_seed2026",
+      "best_val_RMSE": 19.834678684403304,
+      "best_epoch": 5,
+      "command_args": {
+        "lr": 0.0001,
+        "koopa_dynamic_dim": 64,
+        "koopa_hidden_dim": 128,
+        "koopa_hidden_layers": 2,
+        "koopa_num_blocks": 2,
+        "batch_size": 8
+      }
+    },
+    {
+      "model_name": "Koopa",
+      "candidate_name": "dyn16_h64_b1_lr1em3",
+      "source_run": "Koopa_city_time_dyn16_h64_b1_lr1em3_seed2026",
+      "source_dir": "experiments/results/02_global_baselines/1e_tuning_koopa/Koopa_city_time_dyn16_h64_b1_lr1em3_seed2026",
+      "best_val_RMSE": 20.125480236607693,
+      "best_epoch": 1,
+      "command_args": {
+        "lr": 0.001,
+        "koopa_dynamic_dim": 16,
+        "koopa_hidden_dim": 64,
+        "koopa_hidden_layers": 2,
+        "koopa_num_blocks": 1,
+        "batch_size": 32
+      }
+    }
+  ]
+}
